@@ -1,0 +1,47 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.css
+*.html
+*.png
+*.gif
+*.user
+*.vcxproj
+*.sln
+*.ipch
+*.opendb
+*.db
+.vs/bounce/v15/.suo
+*.cd
+*.tlog
+*.log
+*.xml
