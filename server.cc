@@ -163,7 +163,9 @@ void MSServer::dealStdInput(Buffer* buffer) {
             buf.writeInt32(size);
             buf.append(str);
             for (auto& observer : it->second) {
-                observer->send(buf);
+                // send will clear buffer, so must use a tmp object.
+                Buffer tmp_buf(buf);
+                observer->send(tmp_buf);
             }
             // delete subscription project
             if (command == "delete") {
