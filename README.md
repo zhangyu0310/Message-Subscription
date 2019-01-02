@@ -13,4 +13,4 @@ make
 > 其它环境未进行测试，不保证可以编译运行
 
 ubuntu 18.04 | g++ 7.3.0 | cmake 3.13.2 | make 4.1 <br>
-CentOS 7.3 | g++ 4.8.5 | cmake 2.8.12 | make 3.82 <br>
+CentOS 7.3 | g++ 4.8.5 | cmake 3.13.2 | make 3.82 <br>
